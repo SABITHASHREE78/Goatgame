@@ -1,0 +1,53 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+
+#gameArea {
+    background-image: url('road.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    position: relative;
+    width: 300px;
+    height: 600px;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+
+
+#goat {
+    position: absolute;
+    width: 50px; 
+    height: auto; 
+    bottom: 0; 
+    left: 125px; 
+}
+
+#leaf, #bike {
+    position: absolute;
+    width: 30px; /* Smaller size for leaf */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#bike {
+    width: 50px; /* Same width for bike */
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#startButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
